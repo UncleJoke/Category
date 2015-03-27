@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  Category
+//
+//  Created by Bingjie on 15/3/27.
+//  Copyright (c) 2015年 Bingjie. All rights reserved.
+//
+
+#ifndef Category_PrefixHeader_pch
+#define Category_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+    #import "Category.h"
+    #define __DEVICE_OS_VERSION_7_0 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+
+#endif
